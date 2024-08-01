@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes star-appear {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes star-fill {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-star-appear {
+  animation: star-appear 0.3s ease-out forwards;
+}
+
+.animate-star-fill {
+  animation: star-fill 0.3s ease-out forwards;
+}

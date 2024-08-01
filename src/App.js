@@ -62,7 +62,7 @@ function App() {
       {/* Content */}
       <div className="relative z-10 flex items-center">
         <div className="font-custom text-red-700 pt-[1%] pb-[2%] text-5xl md:text-7xl font-bold animate-pulse bg-black opacity-40 w-screen text-center grid">
-          <div className='text-xs md:text-base'>CA: coming soon...</div>
+          <div className='text-xs md:text-base'>CA: AtUiGrdD8TECTx6M2nLiSRSKkuY7Uc8jSRcA4KvVpump</div>
           WASTED
         </div>
       </div>
